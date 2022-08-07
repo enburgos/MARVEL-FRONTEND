@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Ma Super Fonte 2";
+    src: url(BlackWidowMovie-d95Rg.ttf)
+}
+
+footer {
+    display: flex;
+    font-family: 'Ma Super Fonte 2';
+    justify-content: center;
+    align-items: center;
+    background-color: #121B24;
+    color: white;
+    height: 100px;
+}
+
+@media screen and (max-width: 700px) {
+    footer {
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Ma Super Fonte 2";
+    src: url(BlackWidowMovie-d95Rg.ttf)
+}
+
+header {
+    background-color: black;
+    display: flex;
+    border-bottom: solid 3px white;
+}
+
+header img {
+    width: 120px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.leftpart {
+    width: 50%;
+}
+
+.rightpart {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.rightpart button {
+    font-family: 'Ma Super Fonte 2';
+    font-size: 25px;
+    margin: 0px 20px;
+    padding: 3px;
+    width: 180px;
+    color: red;
+    background-color: #121B24;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        flex-direction: column;
+    }
+
+    header img {
+        width: 200px;
+    }
+
+    .leftpart {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+
+    }
+
+    .rightpart {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    .rightpart button {
+        background-color: #121B24;
+        color: red;
+    }
+
+
+
+}
+
+@media screen and (max-width: 430px) {
+    .rightpart {
+        flex-direction: column;
+    }
+
+    .rightpart button {
+        margin: 20px 0px;
+    }
+}
