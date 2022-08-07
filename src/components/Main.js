@@ -2,7 +2,6 @@ import image from "../IMG/thumb-1920-948697.jpeg";
 import ComicsImage from "../IMG/thumb-1920-218487.jpeg";
 import Hulk from "../IMG/thumb-1920-341057.jpeg";
 import "../CSS/Main.css";
-import axios from "axios";
 
 import { Link } from "react-router-dom";
 

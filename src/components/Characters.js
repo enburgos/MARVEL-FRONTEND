@@ -1,6 +1,5 @@
 import axios from "axios";
 import "../CSS/Characters.css";
-import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Logo from "../IMG/logo.ad6c786b.svg";
 import { BASE_URL } from "../App";
@@ -36,7 +35,7 @@ function Characters() {
     <div className="App">
       {isLoading === true ? (
         <div className="loader">
-          <img className="logo" src={Logo}></img>
+          <img className="logo" src={Logo} alt="img"></img>
         </div>
       ) : (
         <div className="entirePage">
